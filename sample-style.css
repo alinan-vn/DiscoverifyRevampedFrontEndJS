@@ -1,0 +1,116 @@
+body {
+    background-color: #1DB954;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+  background-color: #191414;
+  margin: 0 auto;
+  height: 100px;
+
+}
+
+header h1 {
+  color: #7CFC00;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+header h4 {
+  color: #ADFF2F;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+div.artist-creation {
+  background-color: white;
+  height: 20px;
+  width: auto;
+  box-shadow: 10px 10px grey;
+  padding: 10px;
+  border-radius: 10px;
+  float:left;
+}
+
+div.genre-creation {
+  background-color: white;
+  height: 20px;
+  width: auto;
+  box-shadow: 10px 10px grey;
+  padding: 10px;
+  border-radius: 10px;
+  float: right;
+}
+
+div.card {
+  background-color: #FFF8DC;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+}
+
+div.search {
+  background-color: #eeeeee;
+  height: auto;
+  width: auto;
+  box-shadow: 10px 10px grey;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+div h2 {
+  color: red;
+}
+
+div h3 {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div li {
+  color: coral;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+  font-size: 1.05em;
+  list-style: none;
+  padding-right: 20px;
+}
+
+button {
+  font-size: .65em;
+  color: #fff;
+  background-color: green;
+  border-radius: 10px;
+}
+
+button.release {
+  float: right;
+  background-color: #E1332D;
+}
+
+@media only screen and (min-width: 500px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
